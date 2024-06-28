@@ -15,6 +15,27 @@ body {
   -webkit-font-smoothing: antialiased !important;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12pt;
+}
+
+.nav-item {
+  color: #888;
+  text-decoration: none;
+}
+
+.nav-item:visited {
+  color: #888;
+}
+
+.nav-separator {
+  margin: 0 0.5rem;
+  color: #888;
+}
+
 h2 {
   margin-top: 2rem;
 }
@@ -25,6 +46,25 @@ h2 {
   margin: 6rem 2rem;
   position: relative;
   padding-bottom: 5rem;
+}
+
+.blog-post {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.latex {
+  font-size: 0.75em;
 }
 
 li {
