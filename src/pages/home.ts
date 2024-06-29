@@ -37,7 +37,7 @@ export function renderHome(): string {
             of Budapest, June 2024
           </li>
           <li>
-            <u>Kristóf Váradi</u> Clique Search on Erdős-Rényi Graphs – Methods for D-Wave Quantum Annealers. In
+            <u>Kristóf Váradi</u>. Clique Search on Erdős-Rényi Graphs – Methods for D-Wave Quantum Annealers. In
             Pécs Workshop on Quantum Information. Pécs Regional Committee, Hungarian Academy of
             Sciences; HUN-REN Wigner Research Centre for Physics, May 2024
           </li>
