@@ -44,4 +44,3 @@ document.addEventListener('click', (event) => {
 });
 
 router();
-
