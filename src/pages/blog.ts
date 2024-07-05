@@ -1,6 +1,7 @@
 import { renderNav } from "../nav";
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
+import '../style.css';
 
 export function renderBlog(): string {
     return `
@@ -22,8 +23,8 @@ export function renderBlog(): string {
         </div>
       </div>
     `;
-  }
-  
+}
+
 function renderLaTeX() {
     const elements = document.querySelectorAll('.latex');
     elements.forEach(element => {
@@ -34,3 +35,9 @@ function renderLaTeX() {
 }
   
 document.addEventListener('DOMContentLoaded', renderLaTeX);
+const app = document.getElementById('app');
+
+if (app) {
+  app.innerHTML = renderBlog();
+}
+
