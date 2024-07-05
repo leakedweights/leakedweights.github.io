@@ -134,7 +134,7 @@ function renderGraph() {
   });
 }
 
-export function renderMap(): string {
+export function renderMap() {
   return `
     <div>
       ${renderNav()}
